@@ -16,18 +16,6 @@ Figure 1 demonstrates the research framework of this study, including data prepa
 <br>
 <br>
 
-![image](https://github.com/user-attachments/assets/5336b888-cbf7-4add-ac13-765597047929)
-
-<div align="center">Figure 2. Annotation procedures.</div>
-<br>
-<br>
-
-![image](https://github.com/user-attachments/assets/d6093fef-211f-427b-ab08-9ac9d6a6588f)
-
-<div align="center">Figure 3. The architecture of the ViLT backbone and VQA model.</div>
-<br>
-<br>
-
 
 ## Data
 The dataset used in this study can be accessed:
