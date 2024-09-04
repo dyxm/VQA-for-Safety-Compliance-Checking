@@ -1,6 +1,6 @@
 # Safety compliance checking of construction behaviors using visual question answering (VQA)
 
-[Paper](https://www.sciencedirect.com/science/article/pii/S0926580522004502#f0025) | [Dataset](#data) | [Applet](#the_implemented_system) | [Citation](#citation)
+[Paper](https://www.sciencedirect.com/science/article/pii/S0926580522004502#f0025) | [Dataset](#data) | [Applet](#theimplementedsystem) | [Citation](#citation)
 
 
 ## Introduction
