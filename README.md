@@ -1,10 +1,10 @@
 # Safety compliance checking of construction behaviors using visual question answering (VQA)
 
-[Paper](https://www.sciencedirect.com/science/article/pii/S0926580522004502#f0025) | [Citation](#citation) | [Dataset](#data)
+[Paper](https://www.sciencedirect.com/science/article/pii/S0926580522004502#f0025) | [Dataset](#data) | [Applet](#the_implemented_system) | [Citation](#citation)
 
 
 ## Introduction
-Unsafe construction behavior, one of the leading factors of accidents and casualties, can be reduced by strengthening construction inspection. However, current methods use either manual inspection or inefficient cross-modal models based on multiple backbone networks. To alleviate the problems, a “rule-question” transformation and annotation system is formulated, and the unsafe behavior detection is turned into a visual reasoning task: visual question answering (VQA). The VQA model is developed based on a vision-and-language Transformer, and the unsafe behavior could be identified based on the output answers. A dataset containing 16 safety rules and 2386 related construction images is used to fine-tune and validate the VQA model. The results show that the developed VQA model achieves an average recall of 0.81 at a faster reasoning speed. Finally, an applet for safety report generation is implemented to demonstrate the feasibility and practicability of the safety compliance checking based on VQA.
+Unsafe construction behavior, one of the leading factors of accidents and casualties, can be reduced by strengthening construction inspection. However, current methods use either manual inspection or inefficient cross-modal models based on multiple backbone networks. To alleviate the problems, a “rule-question” transformation and annotation system is formulated, and the unsafe behavior detection is turned into a visual reasoning task: visual question answering (VQA). The VQA model is developed based on a [vision-and-language Transformer](https://github.com/dandelin/vilt), and the unsafe behavior could be identified based on the output answers. [A dataset containing 16 safety rules and 2386 related construction images](#data) is used to fine-tune and validate the VQA model. The results show that the developed VQA model achieves an average recall of 0.81 at a faster reasoning speed. Finally, an [applet](#the_implemented_system) for safety report generation is implemented to demonstrate the feasibility and practicability of the safety compliance checking based on VQA.
 
 
 ## Method
@@ -17,6 +17,13 @@ Figure 1 demonstrates the research framework of this study, including data prepa
 <br>
 
 
+## The implemented system
+
+![image](https://github.com/user-attachments/assets/c6f5b67d-9236-4133-a5de-0a22c928f76b)
+![image](https://github.com/user-attachments/assets/d9f4b437-deba-4fb2-af89-0ffd22fd030c)
+![image](https://github.com/user-attachments/assets/dca1c185-fbf7-4209-8ac1-572f4d820ec3)
+
+
 ## Data
 The dataset used in this study can be accessed:
 - at the [TeraBox download link](https://terabox.com/s/1pOcERrkL866GqayeeCfC4Q).
@@ -25,13 +32,6 @@ The dataset used in this study can be accessed:
 ![image](https://github.com/user-attachments/assets/342af909-4ee8-4dbe-ac3a-57a6e546d850)
 
 <div align="center">Figure 4. Sample images with unsafe construction behaviors.</div>
-
-
-## The implemented system for automatic safety compliance checking of construction behaviors
-
-![image](https://github.com/user-attachments/assets/c6f5b67d-9236-4133-a5de-0a22c928f76b)
-![image](https://github.com/user-attachments/assets/d9f4b437-deba-4fb2-af89-0ffd22fd030c)
-![image](https://github.com/user-attachments/assets/dca1c185-fbf7-4209-8ac1-572f4d820ec3)
 
 
 ## Results
