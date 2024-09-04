@@ -1,5 +1,4 @@
 # Safety compliance checking of construction behaviors using visual question answering (VQA)
-VQA for construction safety compliance checking
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S0926580522004502#f0025) | [Citation](#citation) | [Dataset](#data)
 
@@ -66,15 +65,15 @@ The dataset used in this study can be accessed:
 If you find this research useful, consider citing it using:
 ```
 @article{DING2022104580,
-title = {Safety compliance checking of construction behaviors using visual question answering},
-journal = {Automation in Construction},
-volume = {144},
-pages = {104580},
-year = {2022},
-issn = {0926-5805},
-doi = {https://doi.org/10.1016/j.autcon.2022.104580},
-url = {https://www.sciencedirect.com/science/article/pii/S0926580522004502},
-author = {Yuexiong Ding and Muyang Liu and Xiaowei Luo},
+  title = {Safety compliance checking of construction behaviors using visual question answering},
+  journal = {Automation in Construction},
+  volume = {144},
+  pages = {104580},
+  year = {2022},
+  issn = {0926-5805},
+  doi = {https://doi.org/10.1016/j.autcon.2022.104580},
+  url = {https://www.sciencedirect.com/science/article/pii/S0926580522004502},
+  author = {Yuexiong Ding and Muyang Liu and Xiaowei Luo},
 }
 ```
 
