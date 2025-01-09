@@ -8,7 +8,7 @@
 Unsafe construction behavior, one of the leading factors of accidents and casualties, can be reduced by strengthening construction inspection. However, current methods use either manual inspection or inefficient cross-modal models based on multiple backbone networks. To alleviate the problems, a “rule-question” transformation and annotation system is formulated, and the unsafe behavior detection is turned into a visual reasoning task: visual question answering (VQA). The VQA model is developed based on a [vision-and-language Transformer](https://github.com/dandelin/vilt), and the unsafe behavior could be identified based on the output answers. [A dataset containing 16 safety rules and 2386 related construction images](#data) is used to fine-tune and validate the VQA model. The results show that the developed VQA model achieves an average recall of 0.81 at a faster reasoning speed. Finally, an [applet](#the-implemented-system) for safety report generation is implemented to demonstrate the feasibility and practicability of the safety compliance checking based on VQA.
 </p>
 
-**Keywords**: Construction safety management, Safety compliance checking, Safety inspection report, Visual reasoning, Visual question answering, Cross-modal model, Vision-and-language Transformer
+**Keywords**: Construction safety management, Safety compliance checking, Safety inspection report, Behavior-based safety, safety hazard identification, Visual reasoning, Visual question answering, Cross-modal model, Vision-and-language Transformer, Natural language processing, 
 
 
 ## Method
