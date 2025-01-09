@@ -4,7 +4,7 @@
 
 
 ## Introduction
-![image](https://github.com/user-attachments/assets/dca1c185-fbf7-4209-8ac1-572f4d820ec3)
+<img src="https://github.com/user-attachments/assets/dca1c185-fbf7-4209-8ac1-572f4d820ec3" width=400 alt="cover" />
 <p align="justify">
 Unsafe construction behavior, one of the leading factors of accidents and casualties, can be reduced by strengthening construction inspection. However, current methods use either manual inspection or inefficient cross-modal models based on multiple backbone networks. To alleviate the problems, a “rule-question” transformation and annotation system is formulated, and the unsafe behavior detection is turned into a visual reasoning task: visual question answering (VQA). The VQA model is developed based on a <a href="https://github.com/dandelin/vilt">vision-and-language Transformer</a>, and the unsafe behavior could be identified based on the output answers.  <a href="#data"> A dataset containing 16 safety rules and 2386 related construction images</a> is used to fine-tune and validate the VQA model. The results show that the developed VQA model achieves an average recall of 0.81 at a faster reasoning speed. Finally, an <a href="#the-implemented-system"> applet </a> for safety report generation is implemented to demonstrate the feasibility and practicability of the safety compliance checking based on VQA.
 </p>
