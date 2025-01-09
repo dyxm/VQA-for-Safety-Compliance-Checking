@@ -4,11 +4,17 @@
 
 
 ## Introduction
+<p align="justify">
 Unsafe construction behavior, one of the leading factors of accidents and casualties, can be reduced by strengthening construction inspection. However, current methods use either manual inspection or inefficient cross-modal models based on multiple backbone networks. To alleviate the problems, a “rule-question” transformation and annotation system is formulated, and the unsafe behavior detection is turned into a visual reasoning task: visual question answering (VQA). The VQA model is developed based on a [vision-and-language Transformer](https://github.com/dandelin/vilt), and the unsafe behavior could be identified based on the output answers. [A dataset containing 16 safety rules and 2386 related construction images](#data) is used to fine-tune and validate the VQA model. The results show that the developed VQA model achieves an average recall of 0.81 at a faster reasoning speed. Finally, an [applet](#the-implemented-system) for safety report generation is implemented to demonstrate the feasibility and practicability of the safety compliance checking based on VQA.
+</p>
+
+**Keywords**: Construction safety management, Safety compliance checking, Visual reasoning, Visual question answering, Cross-modal model, Vision-and-language Transformer
 
 
 ## Method
+<p align="justify">
 Figure 1 demonstrates the research framework of this study, including data preparation, VQA modeling, and safety report generation. Firstly, some common construction safety rules and the onsite images related to the rules are collected. According to specific procedures, the rules are then converted into corresponding questions, and the answers to the questions are labeled based on the image content. After data preparation, a VQA model based on the ViLT pre-trained on large public datasets continues to be fine-tuned on the collected data to complete the reasoning task. Category balance and parameter optimization are conducted during modeling to obtain a better model. Finally, a safety compliance checking system based on visual reasoning is implemented, automatically generating the safety report for each image using answers predicted by the optimal VQA model.
+</p>
 
 ![image](https://github.com/user-attachments/assets/41817bd9-972a-4617-8239-ada7690e9a12)
 
